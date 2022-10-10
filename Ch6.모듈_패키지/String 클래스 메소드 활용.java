@@ -26,3 +26,17 @@ public class StringEx {
 		System.out.println(c);
 	}
 }
+
+/* 출력 결과
+
+ C#의 길이는 3
+true
+ C#,C++ 
+C#,C++
+Java,C++
+분리된 문자열0: Java
+분리된 문자열1: C++
+C++
++
+
+*/
