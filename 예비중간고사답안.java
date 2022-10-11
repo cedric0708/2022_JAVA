@@ -18,26 +18,43 @@ class PrintShop{
         maxLine=i;
     }
 
-    void print(){
+    void basicPrint(char pC, int maxL){
         int i,j;
 
-        for(i=0; int<maxLine; i++){
+        for(i=0; int<maxL; i++){
             for(j=0; j<(i+1); j++){
-                System.out.print(pChar);
+                System.out.print(pC);
             }
             System.out.println();
         }
     }
 
+    void print(){
+        int i,j;
+
+        /* for(i=0; int<maxLine; i++){
+            for(j=0; j<(i+1); j++){
+                System.out.print(pChar);
+            }
+            System.out.println();
+        }
+        */
+        basicPrint(pChar, maxLine);
+    }
+
     void print(int max){
         int i,j;
 
+        
+        /*
         for(i=0; int<max; i++){
             for(j=0; j<(i+1); j++){
                 System.out.print(pChar);
             }
             System.out.println();
         }
+        */
+        basicPrint(pChar, max);
     }
 
     void printReverse(){
