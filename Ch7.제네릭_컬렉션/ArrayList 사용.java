@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class VectorEx {
+public class ArrayListEx {
 
 	public static void main(String[] args) {
 		// TODO 자동 생성된 메소드 스텁
