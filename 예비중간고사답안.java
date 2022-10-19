@@ -21,7 +21,7 @@ class PrintShop{
     void basicPrint(char pC, int maxL){
         int i,j;
 
-        for(i=0; int<maxL; i++){
+        for(i=0; i<maxL; i++){
             for(j=0; j<(i+1); j++){
                 System.out.print(pC);
             }
@@ -32,7 +32,7 @@ class PrintShop{
     void print(){
         int i,j;
 
-        /* for(i=0; int<maxLine; i++){
+        /* for(i=0; i<maxLine; i++){
             for(j=0; j<(i+1); j++){
                 System.out.print(pChar);
             }
@@ -47,7 +47,7 @@ class PrintShop{
 
         
         /*
-        for(i=0; int<max; i++){
+        for(i=0; i<max; i++){
             for(j=0; j<(i+1); j++){
                 System.out.print(pChar);
             }
