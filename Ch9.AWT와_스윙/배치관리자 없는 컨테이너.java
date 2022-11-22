@@ -15,7 +15,7 @@ public class Swing extends JFrame{
 		la.setSize(200,20);
 		c.add(la);
 		
-		for(int i=1; i<=0; i++) {
+		for(int i=1; i<=9; i++) {
 			JButton b=new JButton(Integer.toString(i));
 			b.setLocation(i*15, i*15);
 			b.setSize(50, 20);
